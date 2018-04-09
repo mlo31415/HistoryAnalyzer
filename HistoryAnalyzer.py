@@ -44,6 +44,7 @@ for dir1 in mainDirList:
 # Convert the dictionary into a list of tuples and then sort the list on the count
 listOfTuples=sorted([(v, k) for k, v in userCounts.items()], reverse=True)
 
+# Print the list
 for count, id in listOfTuples:
     print(id+": "+str(count))
 i=0
